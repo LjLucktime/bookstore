@@ -12,6 +12,9 @@ use app\assets\AppAsset;
 
 
 AppAsset::register($this);
+$this->registerCss("
+
+");
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -33,14 +36,14 @@ AppAsset::register($this);
         'brandLabel' => '<img src="'.$logo_img.'" class="img-responsive brand-bar home_logo" alt="bookshare"  itemprop="logo"/>',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar navbar-fixed-top',
+            'class' => 'navbar-default navbar-fixed-top',
            
         ],
     ]);
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-left','style' => 'padding:20px 0;'],
+        'options' => ['class' => 'navbar-nav  navbar-left','style' => 'padding:20px 0;'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'Home', 'url' => ['/site/index'] ],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
 
@@ -67,12 +70,9 @@ AppAsset::register($this);
     NavBar::end();
     ?>
 
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
+
         <?= $content ?>
-    </div>
+
 </div>
 
 <footer class="footer">
