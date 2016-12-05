@@ -12,9 +12,6 @@ use app\assets\AppAsset;
 
 
 AppAsset::register($this);
-$this->registerCss("
-
-");
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

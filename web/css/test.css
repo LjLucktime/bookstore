@@ -1,0 +1,27 @@
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+    height:90px;
+}
+
+.navbar-default{
+    background: transparent;
+    border: none;
+}
+.navbar .navbar-toggle {
+    margin:25px;
+    background-color: #47b8e0 !important; 
+}
+.navbar .navbar-toggle .icon-bar{
+    background: #fff !important;
+}
+.navbar .navbar-collapse, .navbar .navbar-form{
+    height: 340px;
+    background:transparent;
+    border-bottom:1px outset #ecf0f1; 
+}
+.navbar-default .navbar-nav > li > a{
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color: #fff;
+    background: #47b8e0;
+}

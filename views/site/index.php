@@ -17,10 +17,18 @@ $this->registerCss("
 
 $this->title = 'Share books with others.';
 ?>
-
-  <div class="jumbotron banner">
-    <h1>Hello, world!</h1>
-    <p>...</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+<div class="row">
+  <div class="col-lg-12">
+    <div class="jumbotron banner" style=" padding-top:100px; ">
+      
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Hello, world!</h1>
+        </div>
+        
+      </div>
+    </div>
   </div>
+</div>
+
 
