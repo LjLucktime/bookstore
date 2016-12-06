@@ -1,7 +1,23 @@
+  
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+h5{
+    font-family: 'Marck Script', cursive;
+}
+h6{
+    font-family: 'Marck Script', cursive;
+}
+p{
+    font-family: 'Cormorant Garamond', serif;
+}
+
 .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
     height:90px;
 }
-
 .navbar-default{
     background: transparent;
     border: none;
@@ -16,7 +32,8 @@
 .navbar .navbar-collapse, .navbar .navbar-form{
     height: 340px;
     background:transparent;
-    border-bottom:1px outset #ecf0f1; 
+    padding-bottom: 10px;
+    border-bottom:1px solid #ccc; 
 }
 .navbar-default .navbar-nav > li > a{
     background-color: transparent;
