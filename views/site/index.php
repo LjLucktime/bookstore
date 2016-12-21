@@ -22,8 +22,7 @@ $this->registerCss("
 
 $this->title = 'Share books with others.';
 ?>
-<div class="row">
-  <div class="col-lg-12">
+
 
     <div class="jumbotron banner">
       <div class="container">
@@ -48,7 +47,6 @@ $this->title = 'Share books with others.';
       
     </div>
 
-  </div>
-</div>
+
 
 
