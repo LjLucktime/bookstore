@@ -31,7 +31,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '<img src="'.$logo_img.'" class="img-responsive brand-bar home_logo" alt="bookshare"  itemprop="logo"/>',
+        'brandLabel' => 'BOOK',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-default navbar-fixed-top',
@@ -39,7 +39,7 @@ AppAsset::register($this);
         ],
     ]);
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav  navbar-left','style' => 'padding:20px 0;'],
+        'options' => ['class' => 'navbar-nav  navbar-left'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index'] ],
             ['label' => 'About', 'url' => ['/site/about']],
@@ -48,7 +48,7 @@ AppAsset::register($this);
         ],
     ]);
         echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right','style' => 'padding:20px 0;'],
+        'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ? (
@@ -75,9 +75,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy;  · 2016 - <?= date('Y') ?></p>
+        <p class="pull-left">&copy; HOW ARE YOU · 2016 - <?= date('Y') ?></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+        <p class="pull-right"></p>
     </div>
 </footer>
 

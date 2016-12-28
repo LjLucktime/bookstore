@@ -24,9 +24,10 @@ $this->title = 'Share books with others.';
 ?>
 
 
-    <div class="jumbotron banner">
-      <div class="container">
 
+  <div class="container-fluid banner">
+      
+    <div class="container">
         <div class="row">
           <div class="col-lg-6" style="text-align:left; padding:20px;">
             <h1>Nietzsche</h1>
@@ -39,13 +40,31 @@ $this->title = 'Share books with others.';
             <img src="<?=Url::to('@web/images/egbook.jpg', true);?>" alt="" width="100%">
           </div>
         </div>
+      </div>
 
+    </div>
+
+    <div class="container" style="margin-top:-20px;margin-bottom:40px;">
+      <div class="row text-center">
+        <div class="col-lg-3">
+          <button class="button button-3d button-highlight button-pill">Childen</button>
+        </div>
+        <div class="col-lg-3">
+          <button class="button button-3d button-primary button-pill">Science</button>
+        </div>
+        <div class="col-lg-3">
+          <button class="button button-3d button-action button-pill">Education</button>
+        </div>
+        <div class="col-lg-3">
+          <button class="button button-3d button-default button-pill">Literature</button>
+        </div>
       </div>
     </div>
 
-    <div class="container">
-      
-    </div>
+
+
+
+    
 
 
 
